@@ -1,0 +1,39 @@
+{
+  "name": "smart-rights",
+  "version": "1.0.0",
+  "description": "A Node + Express + MongoDB + JWT API for SmartRights hiring process test",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node ./src/server.ts",
+    "start": "nodemon ./dist/server.js",
+    "prod": "npm run build && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vcpablo/node-mongoose-express-jwt-api.git"
+  },
+  "keywords": [
+    "node",
+    "mongoose",
+    "mongodb",
+    "express",
+    "jwt",
+    "api"
+  ],
+  "author": "Pablo Veiga <vcpablo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vcpablo/node-mongoose-express-jwt-api/issues"
+  },
+  "homepage": "https://github.com/vcpablo/node-mongoose-express-jwt-api#readme",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.0",
+    "mongoose": "^5.4.18",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.3.3333"
+  }
+}
